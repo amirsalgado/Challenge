@@ -1,0 +1,134 @@
+body {
+  background: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.content {
+  display: grid;
+  margin-top: 71px;
+}
+
+.labelTitle {
+  align-content: center;
+  background: #d9d9d9;
+  border-radius: 8px 0px 0px 8px;
+  display: grid;
+  grid-column: 1;
+  height: 55px;
+  justify-content: center;
+  width: 113px;
+}
+
+.labelValue {
+  align-content: center;
+  background: #787878;
+  border-radius: 0px 8px 8px 0px;
+  color: #ffffff;
+  display: grid;
+  grid-column: 2;
+  height: 55px;
+  justify-content: center;
+  width: 232px;
+}
+
+.labelValue-1 {
+  background: #52ca19;
+}
+
+.labelValue-2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemonImage > img {
+  background: #ffffff;
+  border-radius: 8px;
+  grid-column: 1;
+  height: 278px;
+  margin-left: 50px;
+  width: 268px;
+}
+
+.pokemonInformation {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: 113px 232px;
+  grid-template-rows: repeat(4, 55px);
+  margin-left: 44px;
+  margin-right: 39px;
+  row-gap: 16px;
+}
+
+.pokemonType {
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  height: 31px;
+  justify-content: center;
+  width: 91px;
+}
+
+.ice {
+  background: #1995ca;
+}
+
+.fire {
+  background: #ca1919;
+  margin-right: 11px;
+}
+
+.fly {
+  background: #301f9a;
+  margin-right: 11px;
+}
+
+.plant {
+  background: #52ca19;
+  margin-right: 9px;
+}
+
+.psy {
+  background: #d24f4f;
+  margin-right: 11px;
+}
+
+.venom {
+  background: #52188d;
+}
+
+.pokemonWeaknesses {
+  margin-left: 63px;
+  color: #ffffff;
+}
+
+.pokemonWeaknesses > p {
+  margin-top: 19px;
+  margin-bottom: 16px;
+}
+
+.rectangle1 {
+  align-items: center;
+  background: #d9d9d9;
+  display: flex;
+  height: 900px;
+  justify-content: center;
+  position: absolute;
+  width: 1280px;
+}
+
+.rectangle2 {
+  background: #b5b5b8;
+  border-radius: 2px;
+  height: 474px;
+  margin: 101px 256px 325px 278px;
+  width: 746px;
+}
+
+.weaknessesContent {
+  display: flex;
+}
